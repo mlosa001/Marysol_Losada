@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6a45cb53-634d-4c84-af83-fe1afbfde949" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CYOA_Pursuit_HW_LOSADA_MARYSOL/org/pursuit/Adventure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CYOA_Pursuit_HW_LOSADA_MARYSOL/org/pursuit/Adventure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CYOA_Pursuit_HW_LOSADA_MARYSOL/org/pursuit/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CYOA_Pursuit_HW_LOSADA_MARYSOL/org/pursuit/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CYOA_Pursuit_HW_LOSADA_MARYSOL/org/pursuit/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/pursuit/Adventure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/pursuit/Adventure.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,24 +57,43 @@
           <entry key="JAVA" value="310" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/pursuit/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="150">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/pursuit/Adventure.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="23" column="17" selection-start-line="28" selection-end-line="29" />
+            <state relative-caret-position="124">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pursuit/adveneture2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -89,6 +104,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -144,7 +160,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540744270723" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540744361586" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -226,17 +242,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/org/pursuit/Game.java" />
     <entry file="file://$PROJECT_DIR$/src/org/pursuit/Pathfinder.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/pursuit/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/org/pursuit/adveneture2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="30">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/pursuit/Adventure.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="23" column="17" selection-start-line="28" selection-end-line="29" />
+        <state relative-caret-position="124">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pursuit/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
