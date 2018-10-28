@@ -38,9 +38,10 @@ public class Adventure {
         System.out.println("You are walking home and you see a letter on the ground do you open it [Y/n]:");
         choice1 = scanner.nextLine();
         if (choice1.length() == 0 || choice1.charAt(0) == 'y' || choice1.charAt(0) == 'Y') {
-            System.out.println("there is a phone number in the letter ");
+            System.out.println("there is a phone number in the letter (press enter) ");
             number();
         } else if (choice1.charAt(0) == 'n' || choice1.charAt(0) == 'N') {
+
             System.out.println("you make it home in one piece!");
 
         } else {
@@ -53,29 +54,45 @@ public class Adventure {
         String choice2;
         choice2 = scanner.nextLine();
 
-        while (choice2 != "no") {
-            System.out.println("do you call?");
-            choice2 = scanner.nextLine();
-            switch (choice2) {
-                case "call":
-                    run();
-                    break;
-                case "no":
-                    gameOver();
-                    break;
-                default:
-                    System.out.println("quick decide before its too late!");
-            }
+        System.out.println("do you 'call' or 'no'?");
+
+        choice2 = scanner.nextLine();
+        switch (choice2) {
+            case "call":
+                run();
+                break;
+            case "no":
+                gameOver();
+                break;
+            default:
+                System.out.println("quick decide before its too late!");
         }
     }
 
-    private void run() {
 
+    private void run() {
+        String choice3;
         System.out.println("you hear someone yell Run! you start running home and hear a sound behind " +
                 "you, do you turn to look? [Y/n]");
 
+        choice3 = scanner.nextLine();
+        for (int i = choice3.length() - 1; i >= 0; --i) {
+            if (choice3.length() < 3) {
+                System.out.println("you made it home");
+                gameOver();
+                break;
+            } else {
+                System.out.println("oh no you died");
+                gameOver();
+
+                break;
+
+            }
+
+        }
 
     }
+
 
     private void gameOver() {
 
